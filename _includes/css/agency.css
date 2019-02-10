@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color: rgba(138, 0, 69, 0.9);
+    color: #{{ site.data.template.color.primary }};
 }
 
 p {
@@ -36,14 +36,14 @@ a.active {
 }
 
 a {
-    color: rgba(138, 0, 69, 0.9);
+    color: #{{ site.data.template.color.primary }};
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: rgba(163, 161, 161, 0.9);
+    color: #{{ site.data.template.color.secondary }};
 }
 
 h1,
@@ -70,12 +70,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: rgba(138, 0, 69, 0.9);
+    border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #fff;
-    background-color: rgba(138, 0, 69, 0.9);
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-primary:hover,
@@ -83,9 +83,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: rgba(138, 0, 69, 0.9);
+    border-color: #{{ site.data.template.color.primary }};
     color: #fff;
-    background-color: rgba(163, 161, 161, 0.9);
+    background-color: #{{ site.data.template.color.secondary }};
 }
 
 .btn-primary:active,
@@ -109,25 +109,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: rgba(138, 0, 69, 0.9);
-    background-color: rgba(138, 0, 69, 0.9);
+    border-color: #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-primary .badge {
-    color: rgba(138, 0, 69, 0.9);
+    color: #{{ site.data.template.color.primary }};
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: rgba(138, 0, 69, 0.9);
+    border-color: #{{ site.data.template.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: rgba(138, 0, 69, 0.9);
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-xl:hover,
@@ -135,9 +135,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: rgba(138, 0, 69, 0.9);
+    border-color: #{{ site.data.template.color.primary }};
     color: #fff;
-    background-color: rgba(163, 161, 161, 0.9);
+    background-color: #{{ site.data.template.color.secondary }};
 }
 
 .btn-xl:active,
@@ -161,12 +161,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: rgba(138, 0, 69, 0.9);
-    background-color: rgba(138, 0, 69, 0.9);
+    border-color: #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-xl .badge {
-    color: rgba(138, 0, 69, 0.9);
+    color: #{{ site.data.template.color.primary }};
     background-color: #fff;
 }
 
@@ -177,14 +177,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: rgba(255, 255, 255, 0.9);
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: rgba(138, 0, 69, 0.9);
+    color: #{{ site.data.template.color.secondary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -192,8 +192,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: rgba(138, 0, 69, 0.9);
-    background-color: rgba(138, 0, 69, 0.9);
+    border-color: #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -202,7 +202,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: rgba(138, 0, 69, 0.9);
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .nav li a {
@@ -219,19 +219,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: rgba(138, 0, 69, 0.9);
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(138, 0, 69, 0.9);
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: rgba(163, 161, 161, 0.9);
+    background-color: #{{ site.data.template.color.secondary }};
 }
 
 @media(min-width:768px) {
@@ -374,7 +374,8 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(138, 0, 69, 0.9); /* Fallback when no plugin support */
+    background: rgba(138, 0, 69, 0.9);  /* Fallback when no plugin support */
+    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -497,7 +498,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: rgba(138, 0, 69, 0.9);
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .timeline>li .timeline-image h4 {
@@ -684,7 +685,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: rgba(138, 0, 69, 0.9);
+    border-color: #{{ site.data.template.color.primary }};
     box-shadow: none;
 }
 
@@ -762,7 +763,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: rgba(138, 0, 69, 0.9);
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn:focus,
@@ -845,12 +846,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: rgba(138, 0, 69, 0.9);
+    background: #{{ site.data.template.color.primary }};
 }
 
 ::selection {
     text-shadow: none;
-    background: rgba(138, 0, 69, 0.9);
+    background: #{{ site.data.template.color.primary }};
 }
 
 img::selection {
@@ -862,5 +863,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: rgba(138, 0, 69, 0.9);
+    webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
