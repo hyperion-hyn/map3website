@@ -1,13 +1,13 @@
 {
   "main.css": "/adanos/static/css/main.e09371c2.chunk.css",
-  "main.js": "/adanos/static/js/main.b62bdc2d.chunk.js",
-  "main.js.map": "/adanos/static/js/main.b62bdc2d.chunk.js.map",
+  "main.js": "/adanos/static/js/main.1f4b938b.chunk.js",
+  "main.js.map": "/adanos/static/js/main.1f4b938b.chunk.js.map",
   "runtime~main.js": "/adanos/static/js/runtime~main.42b40be9.js",
   "runtime~main.js.map": "/adanos/static/js/runtime~main.42b40be9.js.map",
   "static/js/2.0e60c854.chunk.js": "/adanos/static/js/2.0e60c854.chunk.js",
   "static/js/2.0e60c854.chunk.js.map": "/adanos/static/js/2.0e60c854.chunk.js.map",
   "index.html": "/adanos/index.html",
-  "precache-manifest.9b368cedda10a0122da34383ff016102.js": "/adanos/precache-manifest.9b368cedda10a0122da34383ff016102.js",
+  "precache-manifest.75c660d4a6b1a25ad002b1ccfb6fe129.js": "/adanos/precache-manifest.75c660d4a6b1a25ad002b1ccfb6fe129.js",
   "service-worker.js": "/adanos/service-worker.js",
   "static/css/main.e09371c2.chunk.css.map": "/adanos/static/css/main.e09371c2.chunk.css.map"
 }

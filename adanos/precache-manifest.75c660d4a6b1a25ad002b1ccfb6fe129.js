@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b62bdc2dbfde77d664fe",
+    "revision": "1f4b938b33fe8257f0d9",
     "url": "/adanos/static/css/main.e09371c2.chunk.css"
   },
   {
-    "revision": "b62bdc2dbfde77d664fe",
-    "url": "/adanos/static/js/main.b62bdc2d.chunk.js"
+    "revision": "1f4b938b33fe8257f0d9",
+    "url": "/adanos/static/js/main.1f4b938b.chunk.js"
   },
   {
     "revision": "42b40be9a19a3e14144b",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/adanos/static/js/2.0e60c854.chunk.js"
   },
   {
-    "revision": "bb2fd88a1e9083380f12e7ab011116d8",
+    "revision": "61c694639611fb2abcf8e674241a0586",
     "url": "/adanos/index.html"
   }
 ];
