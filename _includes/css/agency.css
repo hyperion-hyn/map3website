@@ -871,7 +871,20 @@ body {
 }
 
 .hyperion-bg {
-    background-image: url('{{ site.baseurl }}/img/hyperion-logo.png');
+    background-image: url('{{ site.baseurl }}/img/logos/hyperion-logo.png');
     background-repeat:no-repeat;
     background-position:center;
+}
+
+.titan-logo {
+    width: 100%;
+}
+
+.download-img {
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.reset-section-padding {
+    padding: 50px 0;
 }
