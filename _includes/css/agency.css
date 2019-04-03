@@ -869,3 +869,9 @@ body {
 .header-logo {
     margin-top: -30px;
 }
+
+.hyperion-bg {
+    background-image: url('{{ site.baseurl }}/img/hyperion-logo.png');
+    background-repeat:no-repeat;
+    background-position:center;
+}
