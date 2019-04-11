@@ -502,7 +502,7 @@ p {
 .welcome_area {
     position: relative;
     z-index: 2;
-    #height: 1100px;
+    height: 1000px;
 }
 
 .welcome-bg-shape .welcome-first-shape {
@@ -537,7 +537,7 @@ p {
 
 .welcome-mobile-device {
     position: absolute;
-    bottom: 0%;
+    bottom: 23%;
     right: 50px;
     z-index: 9;
     width: 38%;
@@ -1899,7 +1899,7 @@ span.accor-open {
     left: 0;
     top: 19px;
     -webkit-transition-duration: 500ms;
-            transition-duration: 500ms;
+    transition-duration: 500ms;
 }
 
 .catagory-widget li > a:hover:before {
