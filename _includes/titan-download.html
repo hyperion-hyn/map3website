@@ -45,8 +45,7 @@
 
 <script type="text/javascript">
     var ua = navigator.userAgent;
-    // var isWeixin = !!/MicroMessenger/i.test(ua);
-    var isWeixin = true;
+    var isWeixin = !!/MicroMessenger/i.test(ua);
     if(isWeixin){
         document.getElementById('JweixinTip').style.display='block';
 
