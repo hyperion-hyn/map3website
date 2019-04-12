@@ -16,4 +16,33 @@
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
 
- <script type="text/javascript" src="https://s96.cnzz.com/z_stat.php?id=1277050005&web_id=1277050005"></script>
+ <div style="display:none">
+    <script type="text/javascript" src="https://s96.cnzz.com/z_stat.php?id=1277050005&web_id=1277050005"></script>
+ </div>
+ <script>
+     let type = navigator.appName;
+     if (type === "Netscape"){
+         lang = navigator.language;//获取浏览器配置语言，支持非IE浏览器
+     }else{
+         lang = navigator.userLanguage;//获取浏览器配置语言，支持IE5+ == navigator.systemLanguage
+     }
+     let sub_lang = lang.substr(0, 2);//获取浏览器配置语言前两位
+     let instrTitleID = "";
+     let instrContentID = "";
+     if (sub_lang === "zh" && lang === "zh-CN"){
+         instrTitleID = "zh-CN-instr-title";
+         instrContentID = "zh-CN-instr";
+         guideTitleID = "zh-CN-guide-title";
+         guideContentID = "zh-CN-guide"
+     } else{ //default is en
+         instrTitleID = "en-instr-title";
+         instrContentID = "en-instr";
+         guideTitleID = "en-guide-title";
+         guideContentID = "en-guide"
+     }
+
+     $("#" + instrTitleID).css("display", "block");
+     $("#" + instrContentID).css("display", "block");
+     $("#" + guideTitleID).css("display", "block");
+     $("#" + guideContentID).css("display", "block");
+ </script>

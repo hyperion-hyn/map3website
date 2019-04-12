@@ -530,6 +530,15 @@ p {
     margin-bottom: 30px;
 }
 
+.welcome-content h6 {
+    text-transform: none;
+    line-height: 1.5;
+}
+
+.content-padding {
+    padding-top: 20px;
+}
+
 .welcome-mobile-device {
     position: absolute;
     bottom: 23%;
