@@ -3,44 +3,61 @@ baseurl: /
 
 # Site settings
 title: Map3.Network
-email: your-email@hyn.space
+email: administrator@hyn.space
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  - name: Kai Law
+    pic: 1
+    modal-id: 1
+    position: Chief Executive Officer
+    detail:
+      – Double Master of Media and Business, Loughborough University UK<br/>
+      – Co-Founder & COO of Liuxuebao, largest study-abroad SAAS platform in China<br/>
+      – CBO of Vienna Group, Senior Director of Plateno Group, Director of BlueFocus<br/>
+      – Journalist of Phoenix TV channel London branch<br/>
+      – 4 years crypto investment experience, angel of BTS, EOS, IPFS<br/>
+      – Blockchain influencer and forum speaker of multiple countries
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  - name: Eric Huang
+    pic: 2
+    modal-id: 2
+    position: Chief Operating Officer
+    detail:
+      – Co-founder and ex-CTO of Mobvista, the largest Mobile marketing platform in
+      Asia, over 1B USD market valuation, listed on Neeq (834299), business success
+      with operation in 10+ countries<br/>
+      – Bachelor and Master of Shanghai Jiaotong University, major in EE&CS<br/>
+      – Expertise in high concurrence & distributed cloud architecture, serving 10 billion
+      advertisement per day across the world<br/>
+      – Community hero (best honor) of AWS China
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  - name: Guangxian Zou
+    pic: 3
+    modal-id: 3
+    position: Chief Technology Officer
+    detail:
+      – Co-founder and CTO of AIPAI, AIPAI is a gaming video sharing platform of China, ranked 502th in the world’s top 1000 websites released by Google, winner of Most Innovative Company 50 in China of the Fast Company magazine<br/>
+      – Expertise in game development, video processing and  high concurrence & large distributed architecture<br/>
+      – Worked at Netease, Participated in the development of “Tang Dynasty” and “Westward Journey 3”<br/>
+      – Winner of Most Creative People in Business of China of Fast Company on 2016<br/>
+      – Owners of multiple national patents<br/>
+      – Track host of QCon, a global conferences of technical Leaders. Chairman of
+      TGO Guangzhou. TGO curates a community of technical leaders in China<br/>
+      – Master in University of Electronic Science and Technology of China on 2014<br/>
+      – Co-author of the book “Game Programming Gems 7”<br/>
+
+  - name: Isaac Zhang
+    pic: 4
+    modal-id: 4
+    position: Chief Architect
+    detail:
+      – Co-founder and CTO of Mapxus, largest decentralized indoor mapping platform of the world<br/>
+      – Visiting scholar (Maths), University of Cambridge<br/>
+      – PhD on localization (Computer Science), University of Nottingham<br/>
+      – Veteran in maps stacks, large distributed systems and algorithm design<br/>
+      – Strong advocate of decentralized mapping since 2012<br/>
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

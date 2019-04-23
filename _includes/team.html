@@ -1,49 +1,28 @@
 <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">What is Map3?</h2>
-                    <p class="row section-subheading text-muted">
-                        The first decentralized map service network built by <a href="https://www.hyn.space">Hyperion</a> and managed by a decentralized group of global community.
-                        It is open to participation to everyone and fault-tolerant to attacks. <a href="https://www.openstreetmap.org/">OpenStreetMap</a>, an initiative that began 14 years ago has revolutionized how map data are created.
-                        Through years of efforts, there are currently millions of contributors and billions of edits made to its open map database.
-                        However, the world needs <a href="https://blog.emacsen.net/blog/2018/02/16/osm-is-in-trouble/">more than open map data, it also needs open map services</a>.
-                    </p>
-                    <p class="row section-subheading text-muted">
-                        We decided to take one step further - build an open network of map-service providing nodes and decentralize the way we create and consume map services. We can finally have privacy-preserving, free and consensus driven map data and services.
-                        <br><br>
-                    </p>
-                </div>
-            </div>
-            <!--<div class="row">-->
-                <!--{% for member in site.people %}-->
-                <!--<div class="col-sm-4">-->
-                    <!--<div class="team-member">-->
-                        <!--<img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">-->
-                        <!--<h4>{{ member.name }}</h4>-->
-                        <!--<p class="text-muted">{{ member.position }}</p>-->
-                        <!--<ul class="list-inline social-buttons">-->
-                            <!--{% for network in member.social %}-->
-                            <!--<li>-->
-                                <!--<a href="{{ network.url }}">-->
-                                    <!--<i class="fa fa-{{ network.title }}"></i>-->
-                                <!--</a>-->
-                            <!--</li>-->
-                            <!--{% endfor %}-->
-
-                        <!--</ul>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--{% endfor %}-->
-            <!--</div>-->
-            <div class="row">
-                <div class="col-xs-12 text-center btn-toolbar">
-                    <!--<p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>-->
-                    <a href="https://github.com/hyperion-hyn/wiki/wiki/Run-a-Map3-Node" class="page-scroll btn btn-xl">Run a Node</a>
-                    <a href="#portfolio" class="page-scroll btn btn-xl">Use Map3 Service</a>
-                    <a href="https://www.hyn.space/wp-content/uploads/2018/08/Atlas-the-spatial-consensus-blockchain-v1.0.pdf" class="page-scroll btn btn-xl">How it works</a>
-                </div>
+<section id="team" class="bg-light-gray reset-section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Amazing Team</h2>
             </div>
         </div>
-    </section>
+        <div class="row">
+            {% for member in site.people %}
+            <div class="col-sm-3">
+                <div class="team-member">
+                    <a href="#teamModal{{ member.modal-id }}" class="team-link" data-toggle="modal">
+                        <div class="team-hover">
+                            <div class="team-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                    </a>
+                    <h4>{{ member.name }}</h4>
+                    <p class="text-muted">{{ member.position }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
