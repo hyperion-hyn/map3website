@@ -1,69 +1,50 @@
 <!-- About Section -->
     <section id="about">
         <div class="container">
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Chronology of Maps</h2>
-                    <h3 class="section-subheading text-muted">The progression of map towards decentralization.</h3>
+                    <h2 class="section-heading">See Our Services in Action</h2>
+                    <!--<h3 class="section-subheading text-muted">The progression of map towards decentralization.</h3>-->
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                <div class="row">
+                    <div class="col-md-9" style="padding-top: 10px">
+                        <div id="map"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" style="color: white; background: #4F1D7C;">Node Metrics</div>
+                            <div class="panel-body" style="text-align: left">
+                                <strong style="font-size: 25px;">127</strong> live nodes and growing
+                                <br>
+                                <strong style="font-size: 25px;">99.9%</strong> service availability
                             </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Map 1.0</h4>
-                                    <h4 class="subheading">Digital Map</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Maps are made digital, interactive and searchable. But lacks openness, privacy and large-scale community contribution.</p>
-                                </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" style="color: white; background: #4F1D7C;">Usage Metrics</div>
+                            <div class="panel-body" style="text-align: left">
+                                <strong style="font-size: 25px;">7,352,842</strong> API requests made
+                                <br>
+                                <strong style="font-size: 25px;">>100M</strong> API capacity/day
                             </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" style="color: white; background: #4F1D7C;">Map Data Metrics</div>
+                            <div class="panel-body" style="text-align: left">
+                                <strong style="font-size: 25px;">92%</strong> are Open POI data
+                                <br>
+                                <strong style="font-size: 25px;">100%</strong> region coverage
                             </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Map 2.0</h4>
-                                    <h4 class="subheading">Open Map</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted"> The Open Street Map initiative allowed for wide community participation, providing free and open data.
-                                        However, the underlying technology have not improved much since its inception 10 years ago. Furthermore, the open contribution model lacks social-economic structure,
-                                        making difficult to govern and incentivize the community.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Map 3.0</h4>
-                                    <h4 class="subheading">Concensus Map</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Coherent system design of technology, community and economy.
-                                        Enabled by decentralized map technology, self-governed community and sustainable map economy.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Join
-                                    <br>Us
-                                    <br>Now!</h4>
-                            </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch,Promise"></script>
+        <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v5.3.0/build/ol.js"></script>
+        <script src="https://unpkg.com/ol-mapbox-style@4.1.0/dist/olms.js"></script>
+        <script>
+            olms('map', 'https://static.hyn.space/maptiles/hyn-common.json').then(function(map) {
+                // do anything with the passed `ol.Map` instance here.
+            });
+        </script>
     </section>

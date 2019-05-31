@@ -6,8 +6,17 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Optima","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
+}
+
+.inside-list {
+    text-align: left;
+    /*list-style-position: inside;*/
+}
+
+.post-content {
+    text-align: left;
 }
 
 .text-muted {
@@ -176,7 +185,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: Helvetica;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -266,12 +275,16 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    text-align: center;
+    text-align: right;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header.jpeg');
-    background-position: center center;
-    background-repeat: none;
+    /*background-attachment: scroll;*/
+    /*background-image: url('{{ site.baseurl }}/img/yellowbox.png');*/
+    /*background-position: center center;*/
+    /*background-repeat: none;*/
+    background-color: #222;
+    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -289,6 +302,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    text-transform: uppercase;
 }
 
 header .intro-text .intro-heading {
@@ -657,10 +671,10 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/people.png');
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: none;
+    background-size: cover;
 }
 
 section#contact .section-heading {
