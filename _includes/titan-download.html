@@ -1,0 +1,60 @@
+<section class="welcome_area clearfix" id="home">
+    <div class="welcome-bg-shape">
+        <img class="welcome-first-shape" src="../../img/core-img/welcome-bg-1.png" alt="">
+        <img class="welcome-second-shape" src="../../img/core-img/welcome-bg-2.png" alt="">
+    </div>
+
+    <!-- Shape -->
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 col-md-7">
+                <div class="welcome-content">
+                    <h2><span>Titan</span></h2>
+                    <h6>
+                        - Secure public key identity<br />
+                        - Ultra privacy with no location trace leaving your phone<br />
+                        - Cryptographic Location Sharing (CLS)<br />
+                    </h6>
+                </div>
+                <div class="app-download-area">
+                    <div class="app-download-btn active">
+                        <a href="https://static.xuantu.mobi/titan_5_v1.1.0_official.apk" target="_blank"
+                            onclick="_czc.push(['_trackEvent', 'map3', 'download', 'titan','','']);"><i
+                                class="fa fa-download"></i>
+                            <p class="mb-0"><span>Get it by</span>Download(Android Only)</p>
+                        </a>
+                    </div>
+                    <div class="app-download-btn active">
+                        <a href="https://play.google.com/store/apps/details?id=org.hyn.titan"><i class="fa fa-android"></i><p class="mb-0"><span>Get it on</span> Google Play</p></a>
+                    </div>
+                    <!--<div class="app-download-btn">
+                        <a href="#"><i class="fa fa-apple"></i><p class="mb-0"><span>Available on</span> Apple Store</p></a>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="welcome-mobile-device text-right">
+            <img src="../../img/bg-img/wel-dev-1.png" alt="">
+            <img src="../../img/bg-img/wel-dev-2.png" alt="">
+        </div>-->
+    </div>
+
+</section>
+
+<div class="wxtip" id="JweixinTip" style="display: none;">
+    <span class="wxtip-icon"></span>
+    <p class="wxtip-txt">Click on the top right<br />Select open in browser</p>
+</div>
+
+<script type="text/javascript">
+    var ua = navigator.userAgent;
+    var isWeixin = !!/MicroMessenger/i.test(ua);
+    if (isWeixin) {
+        document.getElementById('JweixinTip').style.display = 'block';
+
+        document.getElementById('JweixinTip').onclick = function () {
+            this.style.display = 'none';
+        }
+    }
+</script>
